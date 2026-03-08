@@ -54,6 +54,7 @@ Capitalized text below are conclusions reached.
 * We play hand
     * Case 1: BPO contract and player contract are equivalent [BAD PLAY DURING HAND]
       * MLO and BPO probably the same
+      * Track NT vs Suit contract
     * Case 2: BPO contract and player contract have same suit but BPO bid more [UNDERBID]
       * MLO is bidding level one greater than player
     * Case 3: BPO contract and player contract have the same suit but BPO bid less [OVERBID]
@@ -66,6 +67,7 @@ Capitalized text below are conclusions reached.
          * MLO is BPO
       * If decent results made by other players in this suit but with more tricks [BAD PLAY DURING HAND]
          * MLO is best result with this suit bid.
+         * Track NT vs suit contract
       * Track wrong suit combinations (NT vs maj, NT vs min, min vs maj, min vs NT, maj vs min, maj vs NT, other maj, other min)
 * We defend
   * Case 1: BPO plays [NOT COMPETITIVE ENOUGH]
@@ -75,7 +77,7 @@ Capitalized text below are conclusions reached.
     * Not much we can do if bid is not made / can't be made in our hand
     * Try to figure out if we could defend contract lower than us and get a better score.
   * Case 3: BPO defends same bid [BAD CARD PLAY DEFENSE]
-    * Similar to we play hand, Case 1
+    * Similar to how we handle hand, Case 1
   * Case 4: We miss double [MISSED DOUBLE]
     * MLO is our score with double
   * Case 5: Doubled when we should not [BAD DOUBLE]
