@@ -52,23 +52,21 @@ Capitalized text below are conclusions reached.
     * MLO is BPO probably the same
     * Track Vulnerability and seat positon (especially 4th seat)
 * We play hand
+    * BPO and MLO are established.
     * Case 1: BPO contract and player contract are equivalent [BAD PLAY DURING HAND]
-      * MLO and BPO probably the same
       * Track NT vs Suit contract
     * Case 2: BPO contract and player contract have same suit but BPO bid more [UNDERBID]
       * MLO is bidding level one greater than player
     * Case 3: BPO contract and player contract have the same suit but BPO bid less [OVERBID]
-      * MLO and BPO probably the same
+      * Track wrong suit combinations (NT vs maj, NT vs min, min vs maj, min vs NT, maj vs min, maj vs NT, other maj, other min)
     * Case 4: We bid but BPO defended
       * If opponent contract higher than where we played (we played for less) not much we can do (probably not likely)
-      * All other cases [BAD SACRIFICE]. MLO and BPO are probably the same
+        * Use better failed opponent contract under our bid if that exists -- for both MLO and BPO
+      * All other cases [BAD SACRIFICE].
     * Case 5: BPO contract and player contract have different suits [WRONG SUIT CONTRACT]
       * Determine success of other players in this suit.  If bad or non-existent, definitely wrong suit
-         * MLO is BPO
       * If decent results made by other players in this suit but with more tricks [BAD PLAY DURING HAND]
-         * MLO is best result with this suit bid.
-         * Track NT vs suit contract
-      * Track wrong suit combinations (NT vs maj, NT vs min, min vs maj, min vs NT, maj vs min, maj vs NT, other maj, other min)
+      
 * We defend
   * Case 1: BPO plays [NOT COMPETITIVE ENOUGH]
     * BPO and MLO values similar to normal underbid case
